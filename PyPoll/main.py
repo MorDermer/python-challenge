@@ -44,9 +44,8 @@ print("\n")
 print("----------------------------")
 
 
-
 #Output file
-output_file = os.path.join('..', 'Analysis', 'Election Results_Summary.txt')
+output_file = os.path.join('..', 'PyPoll', 'Analysis', 'Election Results_Summary.txt')
 
 with open(output_file,"w") as file:
     file.write("Election Results")
@@ -57,9 +56,6 @@ with open(output_file,"w") as file:
     file.write("\n")
     file.write("----------------------------")
     file.write("\n")
-
-
-
 
 
 #Calculate the %

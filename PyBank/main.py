@@ -49,7 +49,7 @@ print(f"Greatest Increase in Profits: {total_months[max_increase_month]} (${(str
 print(f"Greatest Decrease in Profits: {total_months[max_decrease_month]} (${(str(max_decrease_value))})")
 
 #Output file
-output_file = os.path.join('..', 'Analysis', 'Financial_Analysis_Summary.txt')
+output_file = os.path.join('..', 'PyBank', 'Analysis', 'Financial_Analysis_Summary.txt')
 
 with open(output_file,"w") as file:
     file.write("Financial Analysis")
